@@ -1,0 +1,57 @@
+.reservedItem {
+  margin-bottom: 20px;
+
+  border-bottom: 1px solid var(--powder-blue);
+
+  font-size: 12px;
+  font-weight: 700;
+}
+.orderInfo {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.clientInfo {
+  width: 40%;
+
+  color: var(--medium-blue);
+}
+
+.reservedDate,
+.orderGetDate {
+  width: 15%;
+  text-align: center;
+  color: var(--dark-blue-gray);
+}
+
+.orderPrice {
+  width: 15%;
+  text-align: center;
+  color: var(--dark-blue-gray);
+}
+
+.orderTotal {
+  width: 15%;
+
+  text-align: center;
+  color: var(--bright-green);
+}
+
+.reservedDetails {
+  width: 100%;
+
+  margin: 0 auto;
+
+  overflow-x: auto;
+
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+}
+
+@media screen and (max-width: 768px) {
+  .orderInfo {
+    gap: 20px;
+  }
+}

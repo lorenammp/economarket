@@ -1,0 +1,34 @@
+.homeConteinerProductsList {
+  min-height: 510px;
+  width: 100%;
+  padding: 12px;
+  padding-right: 0;
+  margin-bottom: 20px;
+}
+
+.homeProductsList {
+  height: 100%;
+  padding: 0;
+  padding-right: 12px;
+
+  list-style: none;
+
+  display: flex;
+  overflow-x: scroll;
+  gap: 25px;
+}
+
+@media (min-width: 800px) {
+  .homeProductsList {
+    width: 70vw;
+
+    margin: 50px auto;
+    margin-bottom: 90px;
+
+    overflow-x: auto;
+
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  }
+}

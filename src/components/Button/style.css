@@ -1,0 +1,14 @@
+.btnRegister{
+    background-color: #0B4870;
+    border: 1px solid #0B4870;
+    border-radius: 100px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.btnRegister:hover{
+    background-color: #032b46;
+}

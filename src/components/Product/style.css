@@ -1,0 +1,145 @@
+.productContainer {
+  display: flex;
+  flex-direction: column;
+
+  padding: 6px;
+  padding-bottom: 10px;
+
+  border: 1px solid var(--light-gray);
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.productContainer:hover {
+  border-color: var(--blue-green);
+}
+
+.productImgContainer {
+  background-color: var(--light-gray);
+
+  width: 100%;
+  height: 260px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.productImg {
+  width: 200px;
+  height: 80%;
+  object-fit: contain;
+  transition: 0.4s;
+}
+
+.productImg:hover {
+  transform: scale(1.5);
+}
+
+.productInfo {
+  margin-top: 10px;
+}
+
+.productTitle {
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 700;
+  color: var(--dark-blue);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.productTitle:hover {
+  color: var(--blue-green);
+}
+
+.productDueDate {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--light-blue-gray);
+
+  margin: 10px 0;
+}
+
+.priceWishlist {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 30px;
+}
+
+.productPricesReserved {
+  width: 100%;
+}
+
+.pastPrice {
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: line-through;
+  color: var(--dark-blue-gray);
+}
+
+.currentprice {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--bright-green);
+
+  margin-top: 10px;
+}
+
+.wishlistBtn {
+  border: none;
+
+  text-align: center;
+  font-size: 24px;
+  color: var(--light-red);
+
+  background-color: transparent;
+
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.wishlistBtn:hover {
+  color: var(--blue-green);
+}
+
+.reserveBtn {
+  background-color: var(--blue-green);
+
+  width: 100%;
+  height: 50px;
+
+  border-radius: 4px;
+
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--white);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 20px;
+}
+
+.addBtn,
+.removeBtn {
+  width: 50px;
+  height: 50px;
+
+  border: none;
+
+  background-color: transparent;
+
+  color: var(--white);
+
+  cursor: pointer;
+}

@@ -1,0 +1,101 @@
+.reservedSellerContainer {
+  width: 100vw;
+
+  margin: 0px auto;
+  margin-top: -20px;
+  margin-bottom: 90px;
+}
+
+.sellerReservedProductsContainer {
+  margin-top: 20px;
+}
+
+.listTitles {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 16px;
+
+  gap: 10px;
+
+  color: var(--dark-blue);
+
+  border-bottom: 1px solid var(--light-blue-gray);
+}
+
+.listTitles {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 19px;
+}
+
+.listTitlesClient {
+  width: 40%;
+  text-align: left;
+}
+
+.listTitlesReservedDate {
+  width: 15%;
+  text-align: center;
+}
+
+.listTitlesOrderPrice {
+  width: 15%;
+  text-align: center;
+}
+
+.listTitlesOrderGetDate {
+  width: 15%;
+  text-align: center;
+}
+
+.listTitlesOrderTotal {
+  width: 15%;
+  text-align: center;
+}
+
+.iconPlaceholder {
+  width: 24px;
+  height: 24px;
+}
+
+@media screen and (min-width: 770px) {
+  .reservedSellerContainer {
+    width: 70vw;
+    margin-top: 30px;
+  }
+
+  .listTitles {
+    width: 100%;
+    display: flex;
+    padding: 0 16px;
+    gap: 0;
+  }
+
+  .listTitlesClient {
+    width: 40%;
+    text-align: left;
+  }
+
+  .listTitlesReservedDate {
+    width: 15%;
+    text-align: center;
+  }
+
+  .listTitlesOrderPrice {
+    width: 15%;
+    text-align: center;
+  }
+
+  .listTitlesOrderGetDate {
+    width: 15%;
+    text-align: center;
+  }
+
+  .listTitlesOrderTotal {
+    width: 15%;
+    text-align: center;
+  }
+}

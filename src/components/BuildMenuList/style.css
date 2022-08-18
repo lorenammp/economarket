@@ -1,0 +1,15 @@
+.menuListItem {
+  background-color: var(--light-blue);
+
+  padding: 0 30px;
+
+  text-align: center;
+  line-height: 50px;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--medium-blue);
+
+  border-bottom: 1px solid var(--light-gray2);
+
+  cursor: pointer;
+}

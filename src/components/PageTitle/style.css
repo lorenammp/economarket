@@ -1,0 +1,36 @@
+.pageTitleContainer {
+  background-color: var(--bright-green);
+
+  height: 60px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 20px;
+  margin: 20px 0;
+
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--white);
+}
+
+.titleText {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 810px) {
+  .pageTitleContainer {
+    height: 120px;
+
+    font-size: 32px;
+  }
+
+  .titleText {
+    width: 70vw;
+  }
+}

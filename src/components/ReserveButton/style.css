@@ -1,0 +1,100 @@
+.reserveBtn {
+  background-color: var(--blue-green);
+
+  width: 100%;
+  height: 50px;
+
+  border-radius: 4px;
+
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: var(--white);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 20px;
+}
+
+.editBtn {
+  width: 100%;
+}
+
+.addBtn,
+.removeBtn {
+  width: 50px;
+  height: 50px;
+
+  border: none;
+
+  background-color: transparent;
+
+  color: var(--white);
+
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.removeBtn {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.addBtn {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.addBtn:hover,
+.removeBtn:hover {
+  background-color: var(--bright-green);
+}
+
+.btnAdd {
+  width: 100%;
+  height: 100%;
+
+  border: none;
+
+  background-color: transparent;
+
+  color: var(--white);
+
+  font-weight: bold;
+  font-size: medium;
+
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btnAdd:hover {
+  background-color: var(--bright-green);
+}
+
+.btnDisable {
+  width: 100%;
+  height: 100%;
+
+  border: none;
+
+  background-color: #fc9d9d;
+
+  color: var(--white);
+
+  border-radius: 4px;
+
+  font-weight: bold;
+  font-size: medium;
+
+  cursor: no-drop;
+
+  transition: 0.5s;
+}
+
+.btnDisable:hover {
+  background-color: #d47a7a;
+  cursor: no-drop;
+  border-radius: 0px;
+}
