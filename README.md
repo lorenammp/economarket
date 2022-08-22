@@ -1,57 +1,70 @@
-# About Economarket
+# Getting Started with Create React App
 
-Economarket is a Front End application, in the form of an e-commerce web site. We help markets to selling products that are near the expiration date, to consumers all over the country for lower and attractive prices.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-- [About Economarket](#about-economarket)
-  - [Features](#features)
-  - [Technologies](#technologies)
-  - [Installation and usage](#installation-and-usage)
-  - [Contribute](#contribute)
-  - [License](#license)
+## Available Scripts
 
-## Features
+In the project directory, you can run:
 
-On Economarket, both consumers and markets are able to create an account and imediately start using our product, to save money or avoid wast. We have developed the following features:
+### `yarn start`
 
-- For markets
-  - Register and login
-  - Market dashboard with an overview of all products owned by that market
-  - Product registration form
-  - Market information edit form
-  - Orders overview, with a list of all orders made to that market
-- For consumers
-  - Register and login
-  - Product list overview
-  - Wishlist
-  - Consumer information edit form
-  - Orders page, with a list of all orders made by that customer
-  - Single product view
-  - Reserve products
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Technologies
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Economarket uses the latest techs for front end web development, such as:
+### `yarn test`
 
-- [React](https://reactjs.org/)
-- [Yarn](https://yarnpkg.com/)
-- [Material UI](https://mui.com/)
-- [Axios](https://axios-http.com/)
-- [React Router](https://v5.reactrouter.com/web/guides/quick-start)
-- [React Hook Form](https://react-hook-form.com/)
-- [Yup](https://github.com/jquense/yup)
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Installation and usage
+### `yarn build`
 
-You can install economarket and run it directly on your PC by clonning the repository and then running:
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-`yarn install`
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-`yarn start`
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Contribute
+### `yarn eject`
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## License
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-[MIT](https://choosealicense.com/licenses/mit/)
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `yarn build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
